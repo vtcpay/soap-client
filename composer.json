@@ -1,0 +1,25 @@
+{
+    "name": "vtcpay/soap-client",
+    "type": "library",
+    "description": "A PHP client for the Vtcpay SOAP API",
+    "keywords": [ "vtcpay", "soap", "web services" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hoang Thien An",
+            "email": "hoangthienan@gmail.com"
+        }
+    ],
+    "require": {
+        "vhtvn/vht-common": "dev-master",
+        "psr/log": "*"
+    },
+    "suggest": {
+        "monolog/monolog": "For logging transactions"
+    },
+    "autoload": {
+        "psr-0": {
+            "Vtcpay\\SoapClient": "src"
+        }
+    }
+}

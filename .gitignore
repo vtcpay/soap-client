@@ -1,0 +1,11 @@
+.idea/
+.DS_Store
+!private
+private/*
+!private/dev/.gitkeep
+!private/prod/.gitkeep
+!private/wsdl/.gitkeep
+vendor/
+!logs
+logs/*
+!logs/.gitkeep
