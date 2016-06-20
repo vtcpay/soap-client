@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "vhtvn/vht-common": "dev-master",
+        "vhtvn/vht-common": "^1.0",
         "psr/log": "*"
     },
     "suggest": {
